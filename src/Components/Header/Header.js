@@ -49,9 +49,7 @@ function Header() {
                 <Route path="home" element={<Home />} />
                 <Route path="cart" element={<Cart />} />
                 <Route path="catalog" element={<Delivery />} />
-                <Route path="order" element={<Order />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="about" element={<About />} />
+                
               </Routes>
 
             </Router>
