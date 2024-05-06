@@ -96,30 +96,7 @@ section{
 .hover:hover{
 	color: #BE963F;
 }
-.btn{
-	background: #eee7ed;
-	border: solid 2px #242424;
-	border-radius: 40px;
-	font-weight: 800;
-	font-size: 16px;
-	line-height: 19px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #1b181f;
-	height: 35px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	width: 150px;
-	transition: 0.3s;
-}
-.btn:hover{
-	box-shadow: 0px 6px 5px 2px #a594a4;
-}
-.link{
-	transition: 0.3s;
-}
+
 /* .link:hover{
 	box-shadow: 0px 6px 5px 2px #836A36;
 } */

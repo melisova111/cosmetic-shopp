@@ -1,6 +1,6 @@
 import './Button.css';
 
-function Button() {
+function Button(props) {
   return (
    <> </>
   );
