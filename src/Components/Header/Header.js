@@ -50,6 +50,7 @@ function Header() {
                 <Route path="cart" element={<Cart />} />
                 <Route path="catalog" element={<Delivery />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="about" element={<About />} />
               </Routes>
 
             </Router>
