@@ -3,7 +3,7 @@
 	align-items: center;
 }
 
-.menu{
+.menu {
 	display: flex;
 	justify-content: center;
 	padding: 20px 0;
@@ -18,7 +18,7 @@
 	font-weight: 500;
 	line-height: 24px;
 	transition: 0.5s;
-border-radius: 20px;
+	border-radius: 20px;
 }
 
 .menu li:last-child a {
@@ -56,6 +56,3 @@ border-radius: 20px;
 	margin: 0 8px;
 
 }
-
-
-
