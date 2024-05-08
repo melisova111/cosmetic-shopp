@@ -1,31 +1,31 @@
 /*food*/
 
-.food_in {
+.about_in {
 	align-items: center;
 }
 
-.food_left {
+.about_left {
 	width: calc(50% - 45px);
 	padding: 0 50px 50px 0;
 	position: relative;
 }
 
-.food_info {
+.about_info {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
 
-.food_right {
+.about_right {
 	width: calc(50% - 45px);
 }
 
-.food .sec_sub-tit {
+.about_tit{
 	margin-bottom: 24px;
-	font-family: Playfair Display;
+
 }
 
-.food_txt {
+.about_txt {
 	color: #2C2F24;
 	font-size: 18px;
 	margin-bottom: 24px;
@@ -33,29 +33,20 @@
 	/* 155.556% */
 }
 
-.food_text-2 {
-	color: #414536;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	/* 150% */
-	margin-bottom: 40px;
-}
 
-.food_info {
+.about_info {
 	border-radius: 12px;
-	background: #474747;
+	background: #717171;
 	padding: 50px;
 	color: #fff;
 	width: 411px;
+	line-height: 25px;
 }
 
-.food_info-txt {
+.about_info-txt {
 	color: #FFF;
-	font-family: DM Sans;
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 30px;
-	/* 125% */
+	line-height: 40px;
 	letter-spacing: -0.72px;
 }
