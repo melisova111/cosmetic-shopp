@@ -1,0 +1,56 @@
+.advan_cards {
+    padding-top: 50px;
+}
+
+.advan_card {
+    padding: 20px;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.advan_ic {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    background: #888786;
+    margin: 0 auto 15px;
+}
+
+.advan_text {
+    text-align: center;
+    max-width: 180px;
+    font-size: 18px;
+}
+
+.advan_card {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* Скрываем всё за контуром */
+}
+
+.advan_card i {
+    transition: 0.8s;
+    /* Время эффекта */
+    display: block;
+    /* Убираем небольшой отступ снизу */
+}
+
+.advan_card:hover {
+    box-shadow: rgb(255, 170, 0);
+    transform: scale(1.1);
+}
+
+.delivery_tit {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.zag {
+    text-align: center;
+    font-size: 20px;
+}

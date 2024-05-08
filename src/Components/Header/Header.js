@@ -17,48 +17,49 @@ import Order from '../../Pages/Order/Order';
 function Header() {
   return (
     <>
-      <header className='App-menu'>
-        <div className="container">
-          <div >
-            <Router>
-              <nav className='menu' >
-                <ul className='menu flex'>
-                  <li>
-                    <Link to="./Home">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="./About">About</Link>
-                  </li>
-                  <li>
-                    <Link to="./Delivery">Delivery</Link>
-                  </li>
-                  <li>
+
+      <div className="all_menu
+">
+        <div >
+          <Router>
+            <nav className='menu flex' >
+              <ul className='menu flex'>
+                <li>
+                  <Link to="./Home">Home</Link>
+                </li>
+                <li>
+                  <Link to="./About">About</Link>
+                </li>
+                <li>
+                  <Link to="./Delivery">Delivery</Link>
+                </li>
+                {/* <li>
                     <Link to="./Order">Order</Link>
-                  </li>
-                  <li>
-                    <Link to="./Contact">Contact</Link>
-                  </li>
-                  <li>
-                    <Link to="./Cart">Cart</Link>
-                  </li>
-                </ul>
-              </nav>
-              <a href="book.html" class="btn">Book A Table</a>
+                  </li> */}
+                <li>
+                  <Link to="./Contact">Contact</Link>
+                </li>
+                <li>
+                  <Link to="./Cart">Cart</Link>
+                </li>
+              </ul>
+            </nav>
 
-              <Routes>
-                <Route path="home" element={<Home />} />
-                <Route path="cart" element={<Cart />} />
-                <Route path="catalog" element={<Delivery />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="about" element={<About />} />
-                <Route path="order" element={<Order />} />
-              </Routes>
 
-            </Router>
+            <Routes>
+              <Route path="home" element={<Home />} />
+              <Route path="cart" element={<Cart />} />
+              <Route path="delivery" element={<Delivery />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="about" element={<About />} />
+              <Route path="order" element={<Order />} />
+            </Routes>
 
-          </div>
+          </Router>
+
         </div>
-      </header>
+      </div>
+
     </>
   );
 }
